@@ -1,0 +1,112 @@
+{
+  "Lightning": {
+    "strongAgainst": ["Water", "Wind"],
+    "weakAgainst": ["Earth"],
+    "multiplier": {
+      "strong": 1.2,
+      "weak": 0.8,
+      "normal": 1.0
+    }
+  },
+  "Water": {
+    "strongAgainst": ["Fire", "Earth"],
+    "weakAgainst": ["Lightning"],
+    "multiplier": {
+      "strong": 1.2,
+      "weak": 0.8,
+      "normal": 1.0
+    }
+  },
+  "Fire": {
+    "strongAgainst": ["Nature", "Ice"],
+    "weakAgainst": ["Water"],
+    "multiplier": {
+      "strong": 1.2,
+      "weak": 0.8,
+      "normal": 1.0
+    }
+  },
+  "Earth": {
+    "strongAgainst": ["Lightning", "Poison"],
+    "weakAgainst": ["Water"],
+    "multiplier": {
+      "strong": 1.2,
+      "weak": 0.8,
+      "normal": 1.0
+    }
+  },
+  "Wind": {
+    "strongAgainst": ["Earth", "Poison"],
+    "weakAgainst": ["Ice"],
+    "multiplier": {
+      "strong": 1.2,
+      "weak": 0.8,
+      "normal": 1.0
+    }
+  },
+  "Ice": {
+    "strongAgainst": ["Wind", "Nature"],
+    "weakAgainst": ["Fire"],
+    "multiplier": {
+      "strong": 1.2,
+      "weak": 0.8,
+      "normal": 1.0
+    }
+  },
+  "Nature": {
+    "strongAgainst": ["Water", "Earth"],
+    "weakAgainst": ["Fire", "Poison"],
+    "multiplier": {
+      "strong": 1.2,
+      "weak": 0.8,
+      "normal": 1.0
+    }
+  },
+  "Poison": {
+    "strongAgainst": ["Nature", "Light"],
+    "weakAgainst": ["Earth"],
+    "multiplier": {
+      "strong": 1.2,
+      "weak": 0.8,
+      "normal": 1.0
+    }
+  },
+  "Light": {
+    "strongAgainst": ["Shadow", "Dark"],
+    "weakAgainst": ["Poison"],
+    "multiplier": {
+      "strong": 1.2,
+      "weak": 0.8,
+      "normal": 1.0
+    }
+  },
+  "Shadow": {
+    "strongAgainst": ["Light"],
+    "weakAgainst": ["Metal"],
+    "multiplier": {
+      "strong": 1.3,
+      "weak": 0.9,
+      "normal": 1.0
+    }
+  },
+  "Dark": {
+    "strongAgainst": ["Light"],
+    "weakAgainst": ["Metal"],
+    "multiplier": {
+      "strong": 1.3,
+      "weak": 0.9,
+      "normal": 1.0
+    }
+  },
+  "Metal": {
+    "strongAgainst": ["Ice", "Shadow", "Dark"],
+    "weakAgainst": ["Lightning", "Fire"],
+    "multiplier": {
+      "strong": 1.2,
+      "weak": 0.8,
+      "normal": 1.0
+    }
+  }
+  
+}
+

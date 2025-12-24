@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "code": "wolf",
+    "name": "Volt Wolf",
+    "element": "Lightning",
+    "hp": 100,
+    "def": 60,
+    "atk": 40,
+    "skills": [
+      { "id": "flash_fang", "power": 45, "effect": "first_strike" },
+      { "id": "overcharge", "power": 65, "effect": "def_down_self" }
+    ]
+  },
+  {
+    "id": 2,
+    "code": "fox",
+    "name": "Wind Fox",
+    "element": "Wind",
+    "hp": 90,
+    "def": 50,
+    "atk": 36,
+    "skills": [
+      { "id": "wind_slash", "power": 40 },
+      { "id": "quick_step", "power": 20, "effect": "evasion_up" }
+    ]
+  },
+  {
+    "id": 3,
+    "code": "bear",
+    "name": "Stone Bear",
+    "element": "Earth",
+    "hp": 160,
+    "def": 120,
+    "atk": 30,
+    "skills": [
+      { "id": "ground_slam", "power": 45 },
+      { "id": "stone_guard", "power": 0, "effect": "def_up" }
+    ]
+  },
+  {
+    "id": 4,
+    "code": "turtle",
+    "name": "Tide Turtle",
+    "element": "Water",
+    "hp": 140,
+    "def": 130,
+    "atk": 28,
+    "skills": [
+      { "id": "water_pulse", "power": 30, "effect": "slow" },
+      { "id": "shell_guard", "power": 0, "effect": "damage_reduce" }
+    ]
+  },
+  {
+    "id": 5,
+    "code": "eagle",
+    "name": "Storm Eagle",
+    "element": "Lightning",
+    "hp": 85,
+    "def": 55,
+    "atk": 34,
+    "skills": [
+      { "id": "thunder_dive", "power": 42, "effect": "first_strike" },
+      { "id": "aerial_dodge", "power": 20, "effect": "evasion_up" }
+    ]
+  },
+  {
+    "id": 6,
+    "code": "snake",
+    "name": "Night Serpent",
+    "element": "Shadow",
+    "hp": 170,
+    "def": 90,
+    "atk": 38,
+    "skills": [
+      { "id": "shadow_coil", "power": 30, "effect": "speed_down" },
+      { "id": "void_bite", "power": 55, "effect": "execute_bonus" }
+    ]
+  },
+  {
+    "id": 7,
+    "code": "lion",
+    "name": "Radiant Lion",
+    "element": "Light",
+    "hp": 130,
+    "def": 85,
+    "atk": 39,
+    "skills": [
+      { "id": "judgment_strike", "power": 50 },
+      { "id": "light_roar", "power": 25, "effect": "team_buff" }
+    ]
+  },
+  {
+    "id": 8,
+    "code": "deer",
+    "name": "Verdant Deer",
+    "element": "Nature",
+    "hp": 110,
+    "def": 60,
+    "atk": 25,
+    "skills": [
+      { "id": "nature_heal", "power": -40, "effect": "heal" },
+      { "id": "root_bind", "power": 15, "effect": "bind" }
+    ]
+  },
+  {
+    "id": 9,
+    "code": "crocodile",
+    "name": "Toxic Crocodile",
+    "element": "Poison",
+    "hp": 150,
+    "def": 100,
+    "atk": 42,
+    "skills": [
+      { "id": "toxic_bite", "power": 45, "effect": "poison" },
+      { "id": "death_roll", "power": 20, "effect": "multi_hit" }
+    ]
+  },
+  {
+    "id": 10,
+    "code": "owl",
+    "name": "Frost Owl",
+    "element": "Ice",
+    "hp": 90,
+    "def": 55,
+    "atk": 33,
+    "skills": [
+      { "id": "freeze_gaze", "power": 35, "effect": "freeze" },
+      { "id": "cold_wind", "power": 25, "effect": "atk_down" }
+    ]
+  },
+  {
+    "id": 11,
+    "code": "bull",
+    "name": "Iron Bull",
+    "element": "Metal",
+    "hp": 155,
+    "def": 120,
+    "atk": 38,
+    "skills": [
+      { "id": "iron_charge", "power": 50 },
+      { "id": "steel_hide", "power": 0, "effect": "damage_reduce" }
+    ]
+  },
+  {
+    "id": 12,
+    "code": "bat",
+    "name": "Dusk Bat",
+    "element": "Dark",
+    "hp": 75,
+    "def": 45,
+    "atk": 35,
+    "skills": [
+      { "id": "life_drain", "power": 30, "effect": "lifesteal" },
+      { "id": "night_dash", "power": 40, "effect": "evasion" }
+    ]
+  },
+  {
+    "id": 13,
+    "code": "shark",
+    "name": "Razor Shark",
+    "element": "Water",
+    "hp": 115,
+    "def": 65,
+    "atk": 44,
+    "skills": [
+      { "id": "aqua_dash", "power": 55 },
+      { "id": "blood_rush", "power": 40, "effect": "low_hp_bonus" }
+    ]
+  },
+  {
+    "id": 14,
+    "code": "monkey",
+    "name": "Flame Monkey",
+    "element": "Fire",
+    "hp": 95,
+    "def": 50,
+    "atk": 41,
+    "skills": [
+      { "id": "fire_combo", "power": 20, "effect": "multi_hit" },
+      { "id": "blazing_leap", "power": 35 }
+    ]
+  },
+  {
+    "id": 15,
+    "code": "rhino",
+    "name": "Earth Rhino",
+    "element": "Earth",
+    "hp": 170,
+    "def": 140,
+    "atk": 35,
+    "skills": [
+      { "id": "iron_horn", "power": 55 },
+      { "id": "fortress_skin", "power": 0, "effect": "damage_reduce" }
+    ]
+  },
+  {
+    "id": 16,
+    "code": "spider",
+    "name": "Venom Spider",
+    "element": "Poison",
+    "hp": 70,
+    "def": 45,
+    "atk": 32,
+    "skills": [
+      { "id": "poison_web", "power": 25, "effect": "poison_slow" },
+      { "id": "ambush_bite", "power": 50, "effect": "first_strike_bonus" }
+    ]
+  },
+  {
+    "id": 17,
+    "code": "horse",
+    "name": "Wind Horse",
+    "element": "Wind",
+    "hp": 105,
+    "def": 55,
+    "atk": 34,
+    "skills": [
+      { "id": "hit_and_run", "power": 40 },
+      { "id": "gale_sprint", "power": 0, "effect": "speed_up" }
+    ]
+  },
+  {
+    "id": 18,
+    "code": "crab",
+    "name": "Reef Crab",
+    "element": "Water",
+    "hp": 125,
+    "def": 105,
+    "atk": 37,
+    "skills": [
+      { "id": "crush_claw", "power": 45, "effect": "def_down" },
+      { "id": "water_shield", "power": 0, "effect": "def_up" }
+    ]
+  },
+  {
+    "id": 19,
+    "code": "frog",
+    "name": "Moss Frog",
+    "element": "Nature",
+    "hp": 75,
+    "def": 45,
+    "atk": 30,
+    "skills": [
+      { "id": "poison_mist", "power": 20, "effect": "poison_all" },
+      { "id": "evasion_leap", "power": 15, "effect": "evasion" }
+    ]
+  },
+  {
+    "id": 20,
+    "code": "scorpion",
+    "name": "Blaze Scorpion",
+    "element": "Fire",
+    "hp": 95,
+    "def": 70,
+    "atk": 37,
+    "skills": [
+      { "id": "burn_sting", "power": 35, "effect": "burn" },
+      { "id": "venom_armor", "power": 20, "effect": "poison_counter" }
+    ]
+  },
+  {
+    "id": 21,
+    "code": "raven",
+    "name": "Void Raven",
+    "element": "Shadow",
+    "hp": 85,
+    "atk": 38,
+    "def": 50,
+    "skills": [
+      { "id": "dark_peck", "power": 40, "effect": "blind" },
+      { "id": "shadow_glide", "power": 20, "effect": "evasion_up" }
+    ]
+  },
+  {
+    "id": 22,
+    "code": "tiger",
+    "name": "Volt Tiger",
+    "element": "Lightning",
+    "hp": 120,
+    "atk": 45,
+    "def": 70,
+    "skills": [
+      { "id": "thunder_pounce", "power": 55 },
+      { "id": "charge_instinct", "power": 0, "effect": "atk_up" }
+    ]
+  },
+  {
+    "id": 23,
+    "code": "octopus",
+    "name": "Abyss Octo",
+    "element": "Water",
+    "hp": 110,
+    "atk": 32,
+    "def": 60,
+    "skills": [
+      { "id": "ink_burst", "power": 30, "effect": "blind" },
+      { "id": "tentacle_grab", "power": 25, "effect": "bind" }
+    ]
+  },
+  {
+    "id": 24,
+    "code": "mantis",
+    "name": "Gale Mantis",
+    "element": "Wind",
+    "hp": 90,
+    "atk": 42,
+    "def": 45,
+    "skills": [
+      { "id": "wind_slash", "power": 45 },
+      { "id": "assassin_step", "power": 30, "effect": "first_strike" }
+    ]
+  },
+  {
+    "id": 25,
+    "code": "boar",
+    "name": "Iron Boar",
+    "element": "Earth",
+    "hp": 160,
+    "atk": 40,
+    "def": 120,
+    "skills": [
+      { "id": "brutal_charge", "power": 50 },
+      { "id": "earth_hide", "power": 0, "effect": "damage_reduce" }
+    ]
+  },
+  {
+    "id": 26,
+    "code": "jellyfish",
+    "name": "Luma Jelly",
+    "element": "Light",
+    "hp": 80,
+    "atk": 28,
+    "def": 55,
+    "skills": [
+      { "id": "radiant_pulse", "power": 35 },
+      { "id": "healing_glow", "power": -30, "effect": "heal_team" }
+    ]
+  },
+  {
+    "id": 27,
+    "code": "lizard",
+    "name": "Cinder Lizard",
+    "element": "Fire",
+    "hp": 95,
+    "atk": 44,
+    "def": 50,
+    "skills": [
+      { "id": "flame_tail", "power": 40, "effect": "burn" },
+      { "id": "heat_dash", "power": 30, "effect": "speed_up" }
+    ]
+  },
+  {
+    "id": 28,
+    "code": "beetle",
+    "name": "Steel Beetle",
+    "element": "Metal",
+    "hp": 130,
+    "atk": 36,
+    "def": 140,
+    "skills": [
+      { "id": "iron_crush", "power": 45 },
+      { "id": "metal_guard", "power": 0, "effect": "def_up" }
+    ]
+  },
+  {
+    "id": 29,
+    "code": "swan",
+    "name": "Frost Swan",
+    "element": "Ice",
+    "hp": 100,
+    "atk": 34,
+    "def": 60,
+    "skills": [
+      { "id": "ice_wing", "power": 38 },
+      { "id": "frozen_bless", "power": 0, "effect": "atk_down_enemy" }
+    ]
+  },
+  {
+    "id": 30,
+    "code": "hyena",
+    "name": "Ruin Hyena",
+    "element": "Dark",
+    "hp": 105,
+    "atk": 46,
+    "def": 55,
+    "skills": [
+      { "id": "chaos_bite", "power": 45 },
+      { "id": "mad_laugh", "power": 25, "effect": "fear" }
+    ]
+  }
+]
